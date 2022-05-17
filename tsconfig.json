@@ -1,0 +1,48 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+        "module": "CommonJS",
+		"strict": true,
+		"jsx": "preserve",
+		"importHelpers": true,
+		"moduleResolution": "node",
+
+		"isolatedModules": true,
+		"useDefineForClassFields": true,
+
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"checkJs": true,
+		"allowJs": true,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"preserveSymlinks": true,
+		"baseUrl": ".",
+		"types": [
+			"node",
+		],
+		"lib": [
+			"esnext",
+			"dom",
+			"dom.iterable",
+			"es2020"
+		]
+	},
+	// "include": [
+	// 	"src/**/*.ts",
+	// 	"src/**/*.tsx",
+	// 	"src/**/*.vue",
+	// 	"tests/**/*.ts",
+	// 	"tests/**/*.tsx"
+	// ],
+	// we should add it I guess, as it is added in vite create-vue app, but it could make a problem with puzzles
+	// "include": ["vite.config.ts"],
+	"exclude": [
+		// "node_modules/**/*",
+		"public/**/*",
+		"**/*.js",
+        // "**/*d.ts",
+	]
+}
