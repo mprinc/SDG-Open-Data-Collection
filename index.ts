@@ -81,6 +81,8 @@ export interface ApiObservationPage {
 };
 
 export interface SdgIndicatorPivotDataList extends ApiObservationPage {
+	attributes: any[];
+	dimensions: any[];
 	data: SdgIndicatorPivotData[];
 }
 
@@ -110,6 +112,8 @@ export interface SdgIndicatorPivotDataList extends ApiObservationPage {
 };
 
 export interface SdgIndicatorDataList extends ApiObservationPage {
+	attributes: any[];
+	dimensions: any[];
 	data: SdgIndicatorData[];
 }
 
